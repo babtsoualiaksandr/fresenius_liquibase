@@ -7,7 +7,7 @@
 <changeSet author="Sasha" id="loadData_Countries_csv">
         <loadData catalogName="cat" encoding="UTF-8" file="country.csv" schemaName="public" separator="," tableName="Countries">
             <column name="Id" type="NUMERIC"/>
-            <column name="Nam" type="STRING"/>
+            <column name="Name" type="STRING"/>
         </loadData>
     </changeSet>
 </databaseChangeLog>
